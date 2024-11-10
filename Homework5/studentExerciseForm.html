@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Student exercise</title>
+  </head>
+
+  <body>
+    <form>
+      <h2>Testform</h2>
+
+      <label for="name">Name</label>
+      <input type="text" placeholder="Enter name" id="name" />
+      <br />
+      <br />
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="Enter password" id="password" />
+      <br />
+      <br />
+
+      <p>Gender</p>
+
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <br />
+
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+      <br />
+      <br />
+
+      <label for="continent">Continent</label>
+      <select id="continent">
+        <option disabled selected>Please select option</option>
+        <option>Asia</option>
+        <option>Europe</option>
+        <option>Australia</option>
+        <option>Africa</option>
+        <option>North America</option>
+        <option>South America</option>
+      </select>
+      <br />
+      <br />
+
+      <p>Meals</p>
+
+      <input type="checkbox" id="breakfast" />
+      <label for="breakfast">Breakfast</label>
+      <br />
+
+      <input type="checkbox" id="lunch" />
+      <label for="lunch">Lunch</label>
+      <br />
+
+      <input type="checkbox" id="dinner" />
+      <label for="dinner">Dinner</label>
+      <br />
+      <br />
+
+      <p>Remark</p>
+
+      <textarea
+        placeholder="Enter remark here"
+        cols="50"
+        rows="10"
+        minlength="10"
+        maxlength="300"
+      ></textarea>
+      <br />
+
+      <input type="submit" value="Send" />
+      <button type="reset">Cancel</button>
+    </form>
+  </body>
+</html>
